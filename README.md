@@ -1,8 +1,16 @@
 # Saardrew Valley
 
 An organic farming simulation project developed as part of the Software Engineering Lab at Saarland University. This educational project simulates realistic farming operations including crop cultivation, environmental influences, and farm management.
-
+Designed with the principles of Software Design Patterns as taught in the lectures of Software Engineering Lab at Saarland University. 
+PlantUML was used to design the UML diagrams and Sequence Diagrams along with draw.io for the State Diagram.
 #### For the most detailed implementation plan of this project, do refer to group19-implementation/Implementation_Plan.md
+
+## Success and Results
+
+Passed 97/100 Mandatory Tests against the Reference (96 needed to pass)
+Passed 60/60 Optional Tests
+Caught 29/30 bugs against the buggy reference by designing our own System Tests for edge cases.
+All thanks to the team Work and co-operation, these were the key to our success.
 
 ## Description
 
@@ -25,7 +33,7 @@ This is an educational project developed for the Software Engineering Lab course
 
 **Course**: Software Engineering Lab  
 **Institution**: Saarland University, Chair of Software Engineering  
-**Academic Year**: 2024-2025
+**Academic Year**: Summer Semester 2025
 
 ## Team
 
@@ -370,4 +378,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Course**: Software Engineering Lab  
 **Institution**: Saarland University, Chair of Software Engineering  
-**Academic Year**: 2024-2025
+**Academic Year**: Summer Semester 2025
