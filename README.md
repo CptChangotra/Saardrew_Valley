@@ -18,7 +18,7 @@ Caught **29/30** bugs against the buggy reference by designing our own System Te
 
 Achieved **93-97%** Unit test coverage.
 
-All thanks to the team Work and co-operation, these were the key to our success.
+All thanks to the team-work and co-operation, these were the key to our success.
 
 
 ## Description
