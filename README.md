@@ -10,11 +10,13 @@ PlantUML was used to design the UML diagrams and Sequence Diagrams along with dr
 
 ## Success and Results
 
-Passed 97/100 Mandatory Tests against the Reference (96 needed to pass)
+Passed **97/100** Mandatory Tests against the Reference (96 needed to pass)
 
-Passed 60/60 Optional Tests
+Passed **60/60** Optional Tests
 
-Caught 29/30 bugs against the buggy reference by designing our own System Tests for edge cases.
+Caught **29/30** bugs against the buggy reference by designing our own System Tests for edge cases.
+
+Achieved **93-97%** Unit test coverage.
 
 All thanks to the team Work and co-operation, these were the key to our success.
 
