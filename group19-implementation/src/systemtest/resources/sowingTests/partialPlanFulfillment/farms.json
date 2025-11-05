@@ -1,0 +1,29 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Partial Fulfillment Farm",
+      "farmsteads": [0],
+      "fields": [1, 2],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Slow Tractor",
+          "actions": ["SOWING"],
+          "plants": ["WHEAT"],
+          "duration": 10,
+          "location": 0
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 0,
+          "tick": 0,
+          "plant": "WHEAT",
+          "fields": [1, 2]
+        }
+      ]
+    }
+  ]
+}

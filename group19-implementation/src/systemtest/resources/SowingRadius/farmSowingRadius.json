@@ -1,0 +1,72 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Very Cool Farm",
+      "farmsteads": [3],
+      "fields": [1,4,5,9,10,15,22],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 80,
+          "name": "Tractor",
+          "actions": ["SOWING", "HARVESTING"],
+          "plants": ["WHEAT"],
+          "duration": 4,
+          "location": 3
+        },
+        {
+          "id": 81,
+          "name": "Tractorrr",
+          "actions": ["SOWING", "WEEDING"],
+          "plants": ["WHEAT", "POTATO"],
+          "duration": 7,
+          "location": 3
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 444,
+          "tick": 1,
+          "plant": "WHEAT",
+          "location": 9,
+          "radius": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Not Cool Farm",
+      "farmsteads": [14],
+      "fields": [11,13,16,17,18,19,20,21,23],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 82,
+          "name": "Tractorrrr",
+          "actions": ["SOWING", "HARVESTING"],
+          "plants": ["WHEAT"],
+          "duration": 2,
+          "location": 14
+        },
+        {
+          "id": 83,
+          "name": "Tractorrrrrr",
+          "actions": ["SOWING", "WEEDING"],
+          "plants": ["WHEAT", "POTATO"],
+          "duration": 6,
+          "location": 14
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 445,
+          "tick": 2,
+          "plant": "WHEAT",
+          "location": 18,
+          "radius": 3
+        }
+      ]
+    }
+  ]
+}

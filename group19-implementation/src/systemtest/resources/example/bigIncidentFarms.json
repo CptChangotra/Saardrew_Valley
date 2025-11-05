@@ -1,0 +1,69 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Very Cool Farm",
+      "farmsteads": [64],
+      "fields": [54, 69, 84],
+      "plantations": [40, 41, 42],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Tractor0",
+          "actions": ["SOWING", "IRRIGATING", "HARVESTING", "WEEDING", "MOWING", "CUTTING"],
+          "plants": ["PUMPKIN", "APPLE"],
+          "duration": 4,
+          "location": 64
+        },
+        {
+          "id": 1,
+          "name": "Tractor1",
+          "actions": ["SOWING", "IRRIGATING", "HARVESTING", "WEEDING", "MOWING", "CUTTING"],
+          "plants": ["PUMPKIN", "APPLE"],
+          "duration": 4,
+          "location": 64
+        },
+        {
+          "id": 2,
+          "name": "Tractor2",
+          "actions": ["SOWING", "IRRIGATING", "HARVESTING", "WEEDING", "MOWING", "CUTTING"],
+          "plants": ["PUMPKIN", "APPLE"],
+          "duration": 4,
+          "location": 64
+        },
+        {
+          "id": 3,
+          "name": "Tractor3",
+          "actions": ["SOWING", "IRRIGATING", "HARVESTING", "WEEDING", "MOWING", "CUTTING"],
+          "plants": ["PUMPKIN", "APPLE"],
+          "duration": 4,
+          "location": 64
+        },
+        {
+          "id": 4,
+          "name": "Tractor4",
+          "actions": ["SOWING", "IRRIGATING", "HARVESTING", "WEEDING", "MOWING", "CUTTING"],
+          "plants": ["PUMPKIN", "APPLE"],
+          "duration": 4,
+          "location": 64
+        },
+        {
+          "id": 5,
+          "name": "Tractor5",
+          "actions": ["SOWING", "IRRIGATING", "HARVESTING", "WEEDING", "MOWING", "CUTTING"],
+          "plants": ["PUMPKIN", "APPLE"],
+          "duration": 4,
+          "location": 64
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 55,
+          "tick": 0,
+          "plant": "PUMPKIN",
+          "fields": [54, 69, 84]
+        }
+      ]
+    }
+  ]
+}

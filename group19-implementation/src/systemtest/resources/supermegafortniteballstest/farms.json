@@ -1,0 +1,51 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Very Cool Farm",
+      "farmsteads": [1],
+      "fields": [8,10,21,22,30,32] ,
+      "plantations": [29,31,33],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Ferrari Tractor (White)",
+          "actions": ["SOWING"],
+          "plants": ["PUMPKIN", "WHEAT"],
+          "duration": 4,
+          "location": 1
+        },
+        {
+          "id": 1,
+          "name": "Ferrari Tractor (Red)",
+          "actions": ["HARVESTING", "MOWING", "WEEDING", "IRRIGATING", "CUTTING"],
+          "plants": ["PUMPKIN", "WHEAT", "APPLE", "CHERRY"],
+          "duration": 4,
+          "location": 1
+        },
+        {
+          "id": 2,
+          "name": "Ferrari Tractor (Blue)",
+          "actions": ["HARVESTING"],
+          "plants": ["PUMPKIN", "WHEAT", "APPLE", "CHERRY"],
+          "duration": 4,
+          "location": 1
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 0,
+          "tick": 0,
+          "plant": "WHEAT",
+          "fields": [8, 10, 21]
+        },
+        {
+          "id": 1,
+          "tick": 1,
+          "plant": "PUMPKIN",
+          "fields": [8, 22]
+        }
+      ]
+    }
+  ]
+}

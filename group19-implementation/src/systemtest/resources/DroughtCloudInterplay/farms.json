@@ -1,0 +1,22 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Cherry farm",
+      "farmsteads": [0],
+      "fields": [],
+      "plantations": [1],
+      "machines": [
+        {
+          "id": 0,
+          "name": "T0",
+          "actions": ["HARVESTING","MOWING", "CUTTING"],
+          "plants": ["CHERRY"],
+          "duration": 10,
+          "location": 0
+        }
+      ],
+      "sowingPlans": []
+    }
+  ]
+}

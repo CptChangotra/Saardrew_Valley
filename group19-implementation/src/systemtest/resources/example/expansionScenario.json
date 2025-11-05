@@ -1,0 +1,84 @@
+{
+  "clouds": [
+    {
+      "id": 0,
+      "location": 9,
+      "duration": 1,
+      "amount": 30
+    },
+    {
+      "id": 1,
+      "location": 87,
+      "duration": 8,
+      "amount": 18388
+    },
+    {
+      "id": 2,
+      "location": 32,
+      "duration": 4,
+      "amount": 5050
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "tick": 0,
+      "type": "CITY_EXPANSION",
+      "location": 17
+    },
+    {
+      "id": 2,
+      "tick": 1,
+      "type": "CITY_EXPANSION",
+      "location": 70
+    },
+    {
+      "id": 3,
+      "type": "CLOUD_CREATION",
+      "tick": 1,
+      "duration": 2,
+      "location": 55,
+      "radius": 2,
+      "amount": 4000
+    },
+    {
+      "id": 4,
+      "tick": 2,
+      "type": "CITY_EXPANSION",
+      "location": 24
+    },
+    {
+      "id": 5,
+      "type": "CLOUD_CREATION",
+      "tick": 2,
+      "duration": 3,
+      "location": 47,
+      "radius": 3,
+      "amount": 5000
+    },
+    {
+      "id": 6,
+      "tick": 3,
+      "type": "CITY_EXPANSION",
+      "location": 84
+    },
+    {
+      "id": 7,
+      "tick": 4,
+      "type": "CITY_EXPANSION",
+      "location": 39
+    },
+    {
+      "id": 8,
+      "tick": 5,
+      "type": "CITY_EXPANSION",
+      "location": 62
+    },
+    {
+      "id": 9,
+      "tick": 6,
+      "type": "CITY_EXPANSION",
+      "location": 54
+    }
+  ]
+}

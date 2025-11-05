@@ -1,0 +1,71 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Very Cool Farm",
+      "farmsteads": [20, 31],
+      "fields": [39, 42, 43, 70, 84, 87],
+      "plantations": [11, 56, 57, 69, 86],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Tractor0",
+          "actions": ["SOWING", "IRRIGATING", "HARVESTING", "WEEDING", "MOWING", "CUTTING"],
+          "plants": ["PUMPKIN", "APPLE"],
+          "duration": 2,
+          "location": 20
+        },
+        {
+          "id": 1,
+          "name": "Tractor1",
+          "actions": ["SOWING", "IRRIGATING", "MOWING", "CUTTING"],
+          "plants": ["GRAPE", "POTATO"],
+          "duration": 4,
+          "location": 20
+        },
+        {
+          "id": 2,
+          "name": "Tractor2",
+          "actions": ["SOWING", "IRRIGATING", "HARVESTING", "WEEDING"],
+          "plants": ["CHERRY", "OAT"],
+          "duration": 4,
+          "location": 20
+        },
+        {
+          "id": 3,
+          "name": "Tractor3",
+          "actions": ["SOWING", "HARVESTING", "WEEDING", "MOWING", "CUTTING"],
+          "plants": ["PUMPKIN", "APPLE", "WHEAT", "ALMOND"],
+          "duration": 4,
+          "location": 20
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 1,
+          "tick": 3,
+          "plant": "PUMPKIN",
+          "fields": [39, 42, 43, 70, 84, 87]
+        },
+        {
+          "id": 2,
+          "tick": 7,
+          "plant": "WHEAT",
+          "fields": [39, 42, 43, 70, 84, 87]
+        },
+        {
+          "id": 3,
+          "tick": 1,
+          "plant": "OAT",
+          "fields": [39, 42, 43, 70, 84, 87]
+        },
+        {
+          "id": 8,
+          "tick": 4,
+          "plant": "POTATO",
+          "fields": [39, 42, 43, 70, 84, 87]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "clouds": [
+  ],
+  "incidents": [
+    {
+      "id": 777,
+      "type": "CLOUD_CREATION",
+      "tick": 0,
+      "duration": -1,
+      "location": 31,
+      "radius": 4,
+      "amount": 1000
+    },
+    {
+      "id": 333,
+      "type": "DROUGHT",
+      "tick": 1,
+      "location": 24,
+      "radius": 0
+    },
+    {
+      "id": 222,
+      "type": "BEE_HAPPY",
+      "tick": 3,
+      "location": 55,
+      "radius": 1,
+      "effect": 100
+    },
+    {
+      "id": 225,
+      "type": "BEE_HAPPY",
+      "tick": 5,
+      "location": 55,
+      "radius": 1,
+      "effect": 100
+    },
+    {
+      "id": 334,
+      "type": "DROUGHT",
+      "tick": 8,
+      "location": 25,
+      "radius": 0
+    },
+    {
+      "id": 335,
+      "type": "DROUGHT",
+      "tick": 9,
+      "location": 26,
+      "radius": 0
+    }
+  ]
+}

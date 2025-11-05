@@ -1,0 +1,33 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Green Valley",
+      "farmsteads": [12, 16],
+      "fields": [0, 1, 4, 5, 8, 18, 19],
+      "plantations": [2, 3, 7, 11],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Good machine",
+          "actions": ["SOWING", "WEEDING"],
+          "plants": ["POTATO"],
+          "duration": 3,
+          "location": 12
+        },
+        {
+          "id": 1,
+          "name": "Weeding machine",
+          "actions": ["SOWING", "WEEDING"],
+          "plants": ["PUMPKIN"],
+          "duration": 3,
+          "location": 16
+        }
+      ],
+      "sowingPlans": [
+        {"id": 0, "tick": 0, "plant": "POTATO", "location": 4, "radius": 1},
+        {"id": 1, "tick": 3, "plant": "PUMPKIN", "location": 5, "radius": 1}
+      ]
+    }
+  ]
+}

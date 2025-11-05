@@ -1,0 +1,50 @@
+{
+  "tiles": [
+    {
+      "id": 333,
+      "category": "VILLAGE",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": 111,
+      "category": "MEADOW",
+      "coordinates": {
+        "x": 1,
+        "y": 1
+      },
+      "airflow": false
+    },
+    {
+      "id": 0,
+      "coordinates": { "x": 3, "y": -1 },
+      "category": "FARMSTEAD",
+      "farm": 0,
+      "shed": true,
+      "airflow": false
+    },
+    {
+      "id": 1,
+      "coordinates": {
+        "x": 2,
+        "y": 0
+      },
+      "category": "PLANTATION",
+      "farm": 0,
+      "capacity": 100000,
+      "plant": "CHERRY",
+      "airflow": false
+    },
+    {
+      "id": 2,
+      "coordinates": { "x": 4, "y": 0 },
+      "category": "FIELD",
+      "farm": 0,
+      "capacity": 10000,
+      "possiblePlants": ["WHEAT"],
+      "airflow": false
+    }
+  ]
+}

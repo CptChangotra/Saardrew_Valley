@@ -1,0 +1,43 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Test Farm",
+      "farmsteads": [0],
+      "fields": [10, 11, 12, 13],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Machine1",
+          "actions": ["HARVESTING", "WEEDING"],
+          "plants": ["POTATO"],
+          "duration": 10,
+          "location": 0
+        },
+        {
+          "id": 1,
+          "name": "Machine2",
+          "actions": ["SOWING"],
+          "plants": ["WHEAT", "POTATO"],
+          "duration": 3,
+          "location": 0
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 0,
+          "tick": 0,
+          "plant": "POTATO",
+          "fields": [11,12,13]
+        },
+        {
+          "id": 1,
+          "tick": 9,
+          "plant": "WHEAT",
+          "fields": [10,11,12,13]
+        }
+      ]
+    }
+  ]
+}

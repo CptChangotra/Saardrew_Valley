@@ -1,0 +1,30 @@
+{
+  "farms": [
+    {
+      "id": 1,
+      "name": "Very Basic Farm",
+      "farmsteads": [0],
+      "fields": [1],
+      "plantations": [2],
+      "machines": [
+        {
+          "id": 0,
+          "name": "T0",
+          "actions": ["SOWING", "WEEDING"],
+          "plants": ["WHEAT"],
+          "duration": 4,
+          "location": 0
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 0,
+          "tick": 0,
+          "plant": "WHEAT",
+          "location": 1,
+          "radius": 2
+        }
+      ]
+    }
+  ]
+}

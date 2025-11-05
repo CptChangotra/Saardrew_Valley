@@ -1,0 +1,29 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Very Cool Farm",
+      "farmsteads": [3],
+      "fields": [1, 2, 5],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Tractor0",
+          "actions": ["SOWING", "IRRIGATING", "HARVESTING", "WEEDING", "MOWING", "CUTTING"],
+          "plants": ["PUMPKIN", "APPLE"],
+          "duration": 4,
+          "location": 3
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 1,
+          "tick": 0,
+          "plant": "PUMPKIN",
+          "fields": [1, 2, 5]
+        }
+      ]
+    }
+  ]
+}

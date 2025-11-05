@@ -1,0 +1,35 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Dry Farm",
+      "farmsteads": [0],
+      "fields": [1],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Sower",
+          "actions": ["SOWING"],
+          "plants": ["POTATO", "PUMPKIN"],
+          "duration": 5,
+          "location": 0
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 0,
+          "tick": 0,
+          "plant": "POTATO",
+          "fields": [1]
+        },
+        {
+          "id": 1,
+          "tick": 3,
+          "plant": "PUMPKIN",
+          "fields": [1]
+        }
+      ]
+    }
+  ]
+}

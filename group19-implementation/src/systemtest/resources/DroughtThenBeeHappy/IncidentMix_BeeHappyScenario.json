@@ -1,0 +1,26 @@
+{
+  "clouds": [
+    {
+      "id": 1,
+      "location": 0,
+      "duration": 2,
+      "amount": 1000
+    },
+    {
+      "id": 2,
+      "location": 2,
+      "duration": -1,
+      "amount": 1000
+    },
+    {
+      "id": 3,
+      "location": 3,
+      "duration": 3,
+      "amount": 1000
+    }
+  ],
+  "incidents": [
+    {"id": 1, "type": "CITY_EXPANSION", "tick": 0, "location": 10},
+    {"id": 2, "type": "BEE_HAPPY", "tick": 1, "location": 14, "radius": 1, "effect": 50}
+  ]
+}

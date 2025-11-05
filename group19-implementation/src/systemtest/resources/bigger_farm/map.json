@@ -1,0 +1,117 @@
+{
+  "tiles": [
+    {
+      "id": 0,
+      "coordinates": { "x": 9, "y": 3 },
+      "category": "FARMSTEAD",
+      "farm": 0,
+      "shed": true,
+      "airflow": false
+    },
+    {
+      "id": 1,
+      "coordinates": { "x": 9, "y": 7 },
+      "category": "FARMSTEAD",
+      "farm": 1,
+      "shed": true,
+      "airflow": true,
+      "direction": "315"
+    },
+
+
+    {
+      "id": 10,
+      "coordinates": { "x": 12, "y": 2 },
+      "category": "VILLAGE"
+    },
+    {
+      "id": 11,
+      "coordinates": { "x": 9, "y": 5 },
+      "category": "MEADOW",
+      "airflow": false
+    },
+    {
+      "id": 12,
+      "coordinates": { "x": 11, "y": 5 },
+      "category": "FOREST",
+      "airflow": false
+    },
+    {
+      "id": 13,
+      "coordinates": { "x": 7, "y": 5 },
+      "category": "FOREST",
+      "airflow": false
+    },
+
+
+    {
+      "id": 100,
+      "coordinates": { "x": 8, "y": 2 },
+      "category": "FIELD",
+      "farm": 0,
+      "capacity": 700,
+      "possiblePlants": ["WHEAT", "PUMPKIN"],
+      "airflow": true,
+      "direction": "90"
+    },
+    {
+      "id": 101,
+      "coordinates": { "x": 10, "y": 2 },
+      "category": "FIELD",
+      "farm": 0,
+      "capacity": 700,
+      "possiblePlants": ["OAT", "PUMPKIN"],
+      "airflow": true,
+      "direction": "90"
+    },
+    {
+      "id": 102,
+      "coordinates": { "x": 14, "y": 2 },
+      "category": "FIELD",
+      "farm": 0,
+      "capacity": 600,
+      "possiblePlants": ["OAT"],
+      "airflow": false
+    },
+    {
+      "id": 103,
+      "coordinates": { "x": 8, "y": 4 },
+      "category": "PLANTATION",
+      "farm": 0,
+      "capacity": 1000,
+      "plant": "GRAPE",
+      "airflow": true,
+      "direction": "0"
+    },
+    {
+      "id": 104,
+      "coordinates": { "x": 10, "y": 4 },
+      "category": "PLANTATION",
+      "farm": 0,
+      "capacity": 800,
+      "plant": "CHERRY",
+      "airflow": false
+    },
+
+    {
+      "id": 200,
+      "coordinates": { "x": 8, "y": 6 },
+      "category": "FIELD",
+      "farm": 1,
+      "capacity": 900,
+      "possiblePlants": ["PUMPKIN"],
+      "airflow": true,
+      "direction": "0"
+    },
+    {
+      "id": 201,
+      "coordinates": { "x": 10, "y": 6 },
+      "category": "FIELD",
+      "farm": 1,
+      "capacity": 700,
+      "possiblePlants": ["POTATO"],
+      "airflow": true,
+      "direction": "0"
+    }
+  ]
+}

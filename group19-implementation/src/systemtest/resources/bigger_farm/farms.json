@@ -1,0 +1,132 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "FARM 0",
+      "farmsteads": [0],
+      "fields": [100, 101, 102],
+      "plantations": [103, 104],
+      "machines": [
+        {
+          "id": 0,
+          "name": "T0",
+          "actions": ["SOWING"],
+          "plants": ["WHEAT", "OAT"],
+          "duration": 8,
+          "location": 0
+        },
+        {
+          "id": 1,
+          "name": "T1",
+          "actions": ["WEEDING", "MOWING"],
+          "plants": ["WHEAT", "OAT", "GRAPE", "CHERRY"],
+          "duration": 4,
+          "location": 0
+        },
+        {
+          "id": 2,
+          "name": "T2",
+          "actions": ["HARVESTING"],
+          "plants": ["OAT", "CHERRY"],
+          "duration": 10,
+          "location": 0
+        },
+        {
+          "id": 3,
+          "name": "T3",
+          "actions": ["HARVESTING"],
+          "plants": ["WHEAT", "GRAPE"],
+          "duration": 10,
+          "location": 0
+        },
+        {
+          "id": 4,
+          "name": "T4",
+          "actions": ["IRRIGATING"],
+          "plants": ["WHEAT", "GRAPE", "OAT"],
+          "duration": 4,
+          "location": 0
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 0,
+          "tick": 7,
+          "plant": "OAT",
+          "location": 101,
+          "radius": 4
+        },
+        {
+          "id": 1,
+          "tick": 19,
+          "plant": "WHEAT",
+          "fields": [ 100 ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "FARM 1",
+      "farmsteads": [1],
+      "fields": [200, 201],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 10,
+          "name": "T10",
+          "actions": ["SOWING"],
+          "plants": ["PUMPKIN"],
+          "duration": 10,
+          "location": 1
+        },
+        {
+          "id": 11,
+          "name": "T11",
+          "actions": ["SOWING"],
+          "plants": ["POTATO"],
+          "duration": 10,
+          "location": 1
+        },
+        {
+          "id": 12,
+          "name": "T12",
+          "actions": ["HARVESTING"],
+          "plants": ["PUMPKIN", "POTATO"],
+          "duration": 10,
+          "location": 1
+        },
+        {
+          "id": 13,
+          "name": "T13",
+          "actions": ["WEEDING"],
+          "plants": ["PUMPKIN", "POTATO"],
+          "duration": 10,
+          "location": 1
+        },
+        {
+          "id": 14,
+          "name": "T14",
+          "actions": ["IRRIGATING"],
+          "plants": ["PUMPKIN", "POTATO"],
+          "duration": 10,
+          "location": 1
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 2,
+          "tick": 12,
+          "plant": "PUMPKIN",
+          "location": 200,
+          "radius": 0
+        },
+        {
+          "id": 3,
+          "tick": 4,
+          "plant": "POTATO",
+          "fields": [ 201 ]
+        }
+      ]
+    }
+  ]
+}

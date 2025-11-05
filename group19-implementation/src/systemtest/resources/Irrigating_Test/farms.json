@@ -1,0 +1,43 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Very Cool Farm",
+      "farmsteads": [0],
+      "fields": [1,2,5,6],
+      "plantations": [3,4],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Tractor",
+          "actions": ["SOWING", "IRRIGATING"],
+          "plants": ["WHEAT","APPLE"],
+          "duration": 2,
+          "location": 0
+        },
+        {
+          "id": 1,
+          "name": "lame ahh Tractor",
+          "actions": ["SOWING"],
+          "plants": ["PUMPKIN", "WHEAT"],
+          "duration": 10,
+          "location": 0
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 0,
+          "tick": 0,
+          "plant": "PUMPKIN",
+          "fields": [6]
+        },
+        {
+          "id": 1,
+          "tick": 5,
+          "plant": "WHEAT",
+          "fields": [1,2,5]
+        }
+      ]
+    }
+  ]
+}

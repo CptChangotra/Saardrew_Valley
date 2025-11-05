@@ -1,0 +1,37 @@
+{
+  "clouds": [
+    {
+      "id": 1,
+      "location": 1,
+      "duration": -1,
+      "amount": 8000
+    },
+    {
+      "id": 2,
+      "location": 2,
+      "duration": -1,
+      "amount": 8000
+    },
+    {
+      "id": 3,
+      "location": 4,
+      "duration": -1,
+      "amount": 8000
+    },
+    {
+      "id": 4,
+      "location": 5,
+      "duration": -1,
+      "amount": 8000
+    },
+    {
+      "id": 5,
+      "location": 10,
+      "duration": -1,
+      "amount": 8000
+    }
+  ],
+  "incidents": [
+    {"id": 1, "type": "BROKEN_MACHINE", "tick": 0, "duration": 10, "machineId": 0}
+  ]
+}

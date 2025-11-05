@@ -1,0 +1,183 @@
+{
+  "tiles": [
+    {
+      "id": 0,
+      "coordinates": { "x": 0, "y": 0 },
+      "category": "FIELD",
+      "airflow": false,
+      "farm": 0,
+      "capacity": 2000,
+      "possiblePlants": ["POTATO"]
+    },
+    {
+      "id": 1,
+      "coordinates": { "x": 2, "y": 0 },
+      "category": "FIELD",
+      "airflow": true,
+      "direction": "90",
+      "farm": 0,
+      "capacity": 2000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 2,
+      "coordinates": { "x": 4, "y": 0 },
+      "category": "FIELD",
+      "airflow": true,
+      "direction": "90",
+      "farm": 0,
+      "capacity": 1800,
+      "possiblePlants": ["POTATO"]
+    },
+    {
+      "id": 3,
+      "coordinates": { "x": 0, "y": 2 },
+      "category": "PLANTATION",
+      "airflow": true,
+      "direction": "180",
+      "farm": 0,
+      "capacity": 1500,
+      "plant": "CHERRY"
+    },
+    {
+      "id": 4,
+      "coordinates": { "x": 2, "y": 2 },
+      "category": "FIELD",
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1800,
+      "possiblePlants": ["POTATO"]
+    },
+    {
+      "id": 5,
+      "coordinates": { "x": 4, "y": 2 },
+      "category": "FIELD",
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1800,
+      "possiblePlants": ["POTATO"]
+    },
+    {
+      "id": 6,
+      "coordinates": { "x": 0, "y": 4 },
+      "category": "VILLAGE"
+    },
+    {
+      "id": 7,
+      "coordinates": { "x": 2, "y": 4 },
+      "category": "FIELD",
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1600,
+      "possiblePlants": ["OAT"]
+    },
+    {
+      "id": 8,
+      "coordinates": { "x": 4, "y": 4 },
+      "category": "FIELD",
+      "airflow": false,
+      "farm": 0,
+      "capacity": 2000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 9,
+      "coordinates": { "x": 6, "y": 2 },
+      "category": "PLANTATION",
+      "airflow": false,
+      "farm": 0,
+      "capacity": 2000,
+      "plant": "ALMOND"
+    },
+    {
+      "id": 10,
+      "coordinates": { "x": 6, "y": 0 },
+      "category": "VILLAGE"
+    },
+    {
+      "id": 11,
+      "coordinates": { "x": 6, "y": 4 },
+      "category": "PLANTATION",
+      "airflow": false,
+      "farm": 0,
+      "capacity": 2000,
+      "plant": "ALMOND"
+    },
+    {
+      "id": 18,
+      "coordinates": { "x": 8, "y": 0 },
+      "category": "FIELD",
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1800,
+      "possiblePlants": ["OAT"]
+    },
+    {
+      "id": 19,
+      "coordinates": { "x": 8, "y": 2 },
+      "category": "FIELD",
+      "airflow": false,
+      "farm": 0,
+      "capacity": 2000,
+      "possiblePlants": ["POTATO"]
+    },
+    {
+      "id": 20,
+      "coordinates": { "x": 8, "y": 4 },
+      "category": "ROAD",
+      "airflow": false
+    },
+    {
+      "id": 12,
+      "coordinates": { "x": 1, "y": 1 },
+      "category": "FARMSTEAD",
+      "airflow": false,
+      "farm": 0,
+      "shed": true
+    },
+    {
+      "id": 13,
+      "coordinates": { "x": 3, "y": 1 },
+      "category": "MEADOW",
+      "airflow": false
+    },
+    {
+      "id": 14,
+      "coordinates": { "x": 5, "y": 1 },
+      "category": "MEADOW",
+      "airflow": false
+    },
+    {
+      "id": 15,
+      "coordinates": { "x": 1, "y": 3 },
+      "category": "ROAD",
+      "airflow": false
+    },
+    {
+      "id": 16,
+      "coordinates": { "x": 3, "y": 3 },
+      "category": "FARMSTEAD",
+      "airflow": false,
+      "farm": 0,
+      "shed": true
+    },
+    {
+      "id": 17,
+      "coordinates": { "x": 5, "y": 3 },
+      "category": "ROAD",
+      "airflow": false
+    },
+    {
+      "id": 21,
+      "coordinates": { "x": 7, "y": 1 },
+      "category": "ROAD",
+      "airflow": false
+    },
+    {
+      "id": 22,
+      "coordinates": { "x": 7, "y": 3 },
+      "category": "ROAD",
+      "airflow": false
+    }
+  ]
+}

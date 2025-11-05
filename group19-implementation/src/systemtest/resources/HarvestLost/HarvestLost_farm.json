@@ -1,0 +1,32 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Green Valley",
+      "farmsteads": [12, 14],
+      "fields": [1, 4, 5],
+      "plantations": [2],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Good machine",
+          "actions": ["SOWING", "WEEDING"],
+          "plants": ["WHEAT"],
+          "duration": 3,
+          "location": 12
+        },
+        {
+          "id": 1,
+          "name": "Harvesting machine",
+          "actions": ["HARVESTING"],
+          "plants": ["WHEAT"],
+          "duration": 3,
+          "location": 14
+        }
+      ],
+      "sowingPlans": [
+        { "id": 0, "tick": 2, "plant": "WHEAT", "location": 1, "radius": 2 }
+      ]
+    }
+  ]
+}

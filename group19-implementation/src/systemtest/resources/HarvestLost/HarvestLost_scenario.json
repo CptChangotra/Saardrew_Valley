@@ -1,0 +1,40 @@
+{
+  "clouds": [
+    {
+      "id": 1,
+      "location": 1,
+      "duration": -1,
+      "amount": 8000
+    },
+    {
+      "id": 2,
+      "location": 2,
+      "duration": -1,
+      "amount": 8000
+    },
+    {
+      "id": 3,
+      "location": 4,
+      "duration": -1,
+      "amount": 8000
+    },
+    {
+      "id": 4,
+      "location": 5,
+      "duration": -1,
+      "amount": 8000
+    },
+    {
+      "id": 5,
+      "location": 10,
+      "duration": -1,
+      "amount": 8000
+    }
+  ],
+  "incidents": [
+    {"id": 1, "type": "BROKEN_MACHINE", "tick": 4, "duration": 3, "machineId": 0},
+    {"id": 2, "type": "BROKEN_MACHINE", "tick": 10, "duration": 3, "machineId": 0},
+    {"id": 3, "type": "BEE_HAPPY", "tick": 12, "location": 13, "radius": 1, "effect": 25},
+    {"id": 4, "type": "BROKEN_MACHINE", "tick": 14, "duration": 5, "machineId": 1}
+  ]
+}

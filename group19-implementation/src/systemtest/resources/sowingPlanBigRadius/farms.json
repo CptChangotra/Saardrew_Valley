@@ -1,0 +1,60 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "I have them all",
+      "farmsteads": [0],
+      "fields": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Tractor",
+          "actions": ["SOWING","HARVESTING","WEEDING","IRRIGATING"],
+          "plants": ["WHEAT"],
+          "duration": 1,
+          "location": 0
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 0,
+          "tick": 0,
+          "plant": "WHEAT",
+          "location": 0,
+          "radius": 5
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "I have one",
+      "farmsteads": [
+        100
+      ],
+      "fields": [
+        17
+      ],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 1,
+          "name": "one Punch man",
+          "actions": [
+            "SOWING",
+            "HARVESTING",
+            "WEEDING",
+            "IRRIGATING"
+          ],
+          "plants": [
+            "WHEAT"
+          ],
+          "duration": 1,
+          "location": 100
+        }
+      ],
+      "sowingPlans": [
+      ]
+    }
+  ]
+}

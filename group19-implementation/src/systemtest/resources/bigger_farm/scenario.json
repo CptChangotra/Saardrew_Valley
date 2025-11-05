@@ -1,0 +1,131 @@
+{
+  "clouds": [
+    {
+      "id": 0,
+      "location": 102,
+      "duration": -1,
+      "amount": 10000
+    },
+    {
+      "id": 1,
+      "location": 1,
+      "duration": -1,
+      "amount": 5050
+    },
+    {
+      "id": 2,
+      "location": 201,
+      "duration": 4,
+      "amount": 5050
+    }
+  ],
+  "incidents": [
+    {
+      "id": 0,
+      "tick": 22,
+      "type": "DROUGHT",
+      "location": 103,
+      "radius": 0
+    },
+
+    {
+      "id": 1,
+      "tick": 10,
+      "type": "ANIMAL_ATTACK",
+      "location": 12,
+      "radius": 10
+    },
+
+    {
+      "id": 100,
+      "tick": 11,
+      "type": "CITY_EXPANSION",
+      "location": 102
+    },
+
+    {
+      "id": 20,
+      "tick": 15,
+      "type": "BEE_HAPPY",
+      "location": 11,
+      "radius": 0,
+      "effect": 20
+    },
+    {
+      "id": 21,
+      "tick": 8,
+      "type": "BEE_HAPPY",
+      "location": 11,
+      "radius": 0,
+      "effect": 30
+    },
+    {
+      "id": 22,
+      "tick": 8,
+      "type": "BEE_HAPPY",
+      "location": 11,
+      "radius": 0,
+      "effect": 30
+    },
+    {
+      "id": 23,
+      "tick": 7,
+      "type": "BEE_HAPPY",
+      "location": 11,
+      "radius": 0,
+      "effect": 30
+    },
+    {
+      "id": 24,
+      "tick": 7,
+      "type": "BEE_HAPPY",
+      "location": 11,
+      "radius": 0,
+      "effect": 30
+    },
+
+
+    {
+      "id": 500,
+      "tick": 5,
+      "type": "BROKEN_MACHINE",
+      "duration": 2,
+      "machineId": 14
+    },
+    {
+      "id": 501,
+      "tick": 22,
+      "type": "BROKEN_MACHINE",
+      "duration": 5,
+      "machineId": 1
+    },
+
+    {
+      "id": 700,
+      "type": "CLOUD_CREATION",
+      "tick": 5,
+      "duration": 2,
+      "location": 11,
+      "radius": 10,
+      "amount": 1000
+    },
+    {
+      "id": 701,
+      "type": "CLOUD_CREATION",
+      "tick": 14,
+      "duration": 1,
+      "location": 11,
+      "radius": 10,
+      "amount": 5050
+    },
+    {
+      "id": 702,
+      "type": "CLOUD_CREATION",
+      "tick": 22,
+      "duration": 1,
+      "location": 11,
+      "radius": 10,
+      "amount": 5050
+    }
+  ]
+}

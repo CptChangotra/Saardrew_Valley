@@ -1,0 +1,23 @@
+{
+  "farms": [
+    {
+      "id": 1,
+      "name": "Basic Farm",
+      "farmsteads": [3],
+      "fields": [4],
+      "plantations": [5],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Tractor",
+          "actions": ["SOWING", "IRRIGATING"],
+          "plants": ["PUMPKIN", "WHEAT"],
+          "duration": 4,
+          "location": 3
+        }
+      ],
+      "sowingPlans": [
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Green Valley",
+      "farmsteads": [10],
+      "fields": [],
+      "plantations": [2],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Good machine",
+          "actions": ["SOWING", "WEEDING"],
+          "plants": ["POTATO"],
+          "duration": 3,
+          "location": 10
+        }
+      ],
+      "sowingPlans": [
+
+      ]
+    }
+  ]
+}

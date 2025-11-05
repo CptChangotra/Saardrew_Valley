@@ -1,0 +1,197 @@
+{
+  "tiles": [
+    {
+      "id": 0,
+      "coordinates": { "x": 7, "y": 3 },
+      "category": "FARMSTEAD",
+      "farm": 0,
+      "airflow": false,
+      "shed": true
+    },
+    {
+      "id": 100,
+      "coordinates": { "x": 13, "y": 5 },
+      "category": "FARMSTEAD",
+      "farm": 1,
+      "airflow": false,
+      "shed": true
+    },
+    {
+    "id": 7,
+      "category": "FIELD",
+      "coordinates": {"x": 8,"y": 0},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 8,
+      "category": "FIELD",
+      "coordinates": {"x": 2,"y": 2},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 15,
+      "category": "FIELD",
+      "coordinates": {"x": 4,"y": 2},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 9,
+      "category": "FIELD",
+      "coordinates": {"x": 6,"y": 2},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 2,
+      "category": "FIELD",
+      "coordinates": {"x": 8,"y": 2},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 3,
+      "category": "FIELD",
+      "coordinates": {"x": 10,"y": 2},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 11,
+      "category": "FIELD",
+      "coordinates": {"x": 12,"y": 2},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 17,
+      "category": "FIELD",
+      "coordinates": {"x": 14,"y": 2},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 1,
+      "category": "FIELD",
+      "coordinates": {"x": 16,"y": 2},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 12,
+      "category": "FIELD",
+      "coordinates": {"x": 4,"y": 4},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 16,
+      "category": "FIELD",
+      "coordinates": {"x": 6,"y": 4},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 4,
+      "category": "FIELD",
+      "coordinates": {"x": 8,"y": 4},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 6,
+      "category": "FIELD",
+      "coordinates": {"x": 10,"y": 4},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 13,
+      "category": "FIELD",
+      "coordinates": {"x": 6,"y": 6},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 14,
+      "category": "FIELD",
+      "coordinates": {"x": 8,"y": 6},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 10,
+      "category": "FIELD",
+      "coordinates": {"x": 10,"y": 6},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 5,
+      "category": "FIELD",
+      "coordinates": {"x": 8,"y": 8},
+      "airflow": false,
+      "farm": 0,
+      "capacity": 1000,
+      "possiblePlants": ["WHEAT"]
+    },
+    {
+      "id": 101,
+      "coordinates": { "x": 13, "y": 1 },
+      "category": "ROAD",
+      "airflow": false
+    },
+    {
+      "id": 102,
+      "coordinates": { "x": 14, "y": 0 },
+      "category": "ROAD",
+      "airflow": false
+    },
+    {
+      "id": 103,
+      "coordinates": { "x": 15, "y": 1 },
+      "category": "ROAD",
+      "airflow": false
+    },
+    {
+      "id": 104,
+      "coordinates": { "x": 14, "y": 4 },
+      "category": "ROAD",
+      "airflow": false
+    }
+  ]
+}

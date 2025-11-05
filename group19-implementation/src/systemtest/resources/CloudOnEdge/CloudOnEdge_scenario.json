@@ -1,0 +1,50 @@
+{
+  "clouds": [
+    {
+      "id": 1,
+      "location": 0,
+      "duration": -1,
+      "amount": 1000
+    },
+    {
+      "id": 2,
+      "location": 7,
+      "duration": -1,
+      "amount": 1000
+    },
+    {
+      "id": 3,
+      "location": 1,
+      "duration": -1,
+      "amount": 1000
+    },
+    {
+      "id": 4,
+      "location": 3,
+      "duration": -1,
+      "amount": 8000
+    },
+    {
+      "id": 7,
+      "location": 16,
+      "duration": -1,
+      "amount": 5000
+    },
+    {
+      "id": 8,
+      "location": 4,
+      "duration": 2,
+      "amount": 5000
+    },
+    {
+      "id": 5,
+      "location": 5,
+      "duration": -1,
+      "amount": 8000
+    }
+  ],
+  "incidents": [
+    {"id": 1, "type": "CLOUD_CREATION", "tick": 0, "duration": 2, "location": 16, "radius": 2, "amount": 5000},
+    {"id": 2, "type": "CLOUD_CREATION", "tick": 1, "duration": -1, "location": 18, "radius": 0, "amount": 5000}
+  ]
+}

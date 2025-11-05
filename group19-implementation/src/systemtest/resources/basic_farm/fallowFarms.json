@@ -1,0 +1,52 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Very Basic Farm",
+      "farmsteads": [0],
+      "fields": [10, 11, 12, 13, 14],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 0,
+          "name": "T0",
+          "actions": ["SOWING", "WEEDING"],
+          "plants": ["WHEAT"],
+          "duration": 1,
+          "location": 0
+        },
+        {
+          "id": 1,
+          "name": "T1",
+          "actions": ["HARVESTING"],
+          "plants": ["WHEAT"],
+          "duration": 12,
+          "location": 0
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 0,
+          "tick": 0,
+          "plant": "WHEAT",
+          "location": 10,
+          "radius": 5
+        },
+        {
+          "id": 1,
+          "tick": 16,
+          "plant": "WHEAT",
+          "location": 10,
+          "radius": 5
+        },
+        {
+          "id": 2,
+          "tick": 24,
+          "plant": "WHEAT",
+          "location": 10,
+          "radius": 5
+        }
+      ]
+    }
+  ]
+}

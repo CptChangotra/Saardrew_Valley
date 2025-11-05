@@ -1,0 +1,62 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Very Cool Farm",
+      "farmsteads": [
+        0
+      ],
+      "fields": [
+        1,
+        2,
+        4
+      ],
+      "plantations": [
+        3,
+        5
+      ],
+      "machines": [
+        {
+          "id": 0,
+          "name": "Tractor",
+          "actions": [
+            "SOWING"
+          ],
+          "plants": [
+            "WHEAT",
+            "APPLE",
+            "CHERRY"
+          ],
+          "duration": 1,
+          "location": 0
+        },
+        {
+          "id": 1,
+          "name": "RB21",
+          "actions": [
+            "IRRIGATING"
+          ],
+          "plants": [
+            "WHEAT",
+            "APPLE",
+            "CHERRY"
+          ],
+          "duration": 1,
+          "location": 0
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 0,
+          "tick": 0,
+          "plant": "WHEAT",
+          "fields": [
+            1,
+            2,
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}

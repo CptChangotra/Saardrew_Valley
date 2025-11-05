@@ -1,0 +1,264 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Very Cool Farm",
+      "farmsteads": [
+        1
+      ],
+      "fields": [
+        10,11,17
+      ],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 101,
+          "name": "Tractor",
+          "actions": [
+            "SOWING"
+          ],
+          "plants": [
+            "WHEAT"
+          ],
+          "duration": 4,
+          "location": 1
+        },
+        {
+          "id": 102,
+          "name": "The Water Tractor",
+          "actions": [
+            "IRRIGATING","WEEDING"
+          ],
+          "plants": [
+            "WHEAT"
+          ],
+          "duration": 4,
+          "location": 1
+        },
+        {
+          "id": 103,
+          "name": "Bread is here",
+          "actions": [
+            "HARVESTING"
+          ],
+          "plants": [
+            "WHEAT"
+          ],
+          "duration": 4,
+          "location": 1
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 101,
+          "tick": 13,
+          "plant": "WHEAT",
+          "fields": [17]
+        },
+        {
+          "id": 102,
+          "tick": 15,
+          "plant": "WHEAT",
+          "location": 12,
+          "radius": 1
+        },
+        {
+          "id": 103,
+          "tick": 16,
+          "plant": "WHEAT",
+          "fields": [10]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Not so cool farm",
+      "farmsteads": [
+        9
+      ],
+      "fields": [
+        7,13,14,18
+      ],
+      "plantations": [],
+      "machines": [
+        {
+          "id": 201,
+          "name": "the food machine",
+          "actions": [
+            "SOWING"
+          ],
+          "plants": [
+            "PUMPKIN","WHEAT"
+          ],
+          "duration": 4,
+          "location": 9
+        },
+        {
+          "id": 202,
+          "name": "the breakfast machine",
+          "actions": [
+            "HARVESTING"
+          ],
+          "plants": [
+            "WHEAT","PUMPKIN"
+          ],
+          "duration": 4,
+          "location": 9
+        },
+        {
+          "id": 203,
+          "name": "the water machine",
+          "actions": [
+            "IRRIGATING","WEEDING"
+          ],
+          "plants": [
+            "WHEAT","PUMPKIN"
+          ],
+          "duration": 4,
+          "location": 9
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 201,
+          "tick": 6,
+          "plant": "PUMPKIN",
+          "fields": [18]
+        },
+        {
+          "id": 202,
+          "tick": 8,
+          "plant": "PUMPKIN",
+          "location": 14,
+          "radius": 1
+        },
+        {
+          "id": 203,
+          "tick": 13,
+          "plant": "WHEAT",
+          "location": 12,
+          "radius": 1
+        },
+        {
+          "id": 204,
+          "tick": 14,
+          "plant": "WHEAT",
+          "location": 12,
+          "radius": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "what is the point of life",
+      "farmsteads": [25],
+      "fields": [19,20,21,22,23,24],
+      "plantations": [],
+      "machines": [
+      {
+        "id": 301,
+        "name": "Im not sure right now",
+        "actions": ["SOWING"],
+        "plants": ["OAT","POTATO","PUMPKIN","WHEAT"],
+        "duration": 10,
+        "location": 25
+      },
+        {
+          "id": 302,
+          "name": "halloween is coming",
+          "actions": ["SOWING"],
+          "plants": ["PUMPKIN"],
+          "duration": 10,
+          "location": 25
+        },
+        {
+          "id": 303,
+          "name": "WATER",
+          "actions": [
+            "IRRIGATING","WEEDING"
+          ],
+          "plants": [
+            "OAT","POTATO","WHEAT"
+          ],
+          "duration": 4,
+          "location": 25
+        },
+        {
+          "id": 304,
+          "name": "payday",
+          "actions": ["HARVESTING"],
+          "plants": ["OAT","POTATO","WHEAT","PUMPKIN"],
+          "duration": 10,
+          "location": 25
+        }
+      ],
+      "sowingPlans": [
+        {
+          "id": 301,
+          "tick": 0,
+          "plant": "OAT",
+          "location": 25,
+          "radius": 1
+        },
+        {
+          "id": 302,
+          "tick": 0,
+          "plant": "OAT",
+          "location": 25,
+          "radius": 1
+        },
+        {
+          "id": 303,
+          "tick": 0,
+          "plant": "OAT",
+          "location": 25,
+          "radius": 1
+        },
+        {
+          "id": 304,
+          "tick": 0,
+          "plant": "POTATO",
+          "location": 25,
+          "radius": 1
+        },
+        {
+          "id": 305,
+          "tick": 4,
+          "plant": "POTATO",
+          "fields": [22,23]
+        },
+        {
+          "id": 306,
+          "tick": 5,
+          "plant": "POTATO",
+          "fields": [22,23]
+        },
+        {
+          "id": 307,
+          "tick": 7,
+          "plant": "PUMPKIN",
+          "location": 22,
+          "radius": 1
+        },
+        {
+          "id": 308,
+          "tick": 7,
+          "plant": "WHEAT",
+          "fields": [19,20]
+        },
+        {
+          "id": 309,
+          "tick": 8,
+          "plant": "WHEAT",
+          "fields": [19,20]
+        },
+        {
+          "id": 310,
+          "tick": 10,
+          "plant": "WHEAT",
+          "fields": [21,22,23,24]
+        }
+      ]
+    }
+  ]
+}

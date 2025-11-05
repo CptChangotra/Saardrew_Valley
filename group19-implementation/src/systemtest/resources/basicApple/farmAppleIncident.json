@@ -1,0 +1,39 @@
+{
+  "farms": [
+    {
+      "id": 0,
+      "name": "Ello",
+      "farmsteads": [0],
+      "fields": [],
+      "plantations": [22,23,24,25,26],
+      "machines": [
+        {
+          "id": 0,
+          "name": "T0",
+          "actions": ["CUTTING", "MOWING"],
+          "plants": ["APPLE"],
+          "duration": 4,
+          "location": 0
+        },
+        {
+          "id": 1,
+          "name": "T1",
+          "actions": ["IRRIGATING"],
+          "plants": ["APPLE"],
+          "duration": 4,
+          "location": 0
+        },
+        {
+          "id": 2,
+          "name": "T2",
+          "actions": ["HARVESTING"],
+          "plants": ["APPLE"],
+          "duration": 4,
+          "location": 0
+        }
+      ],
+      "sowingPlans": [
+      ]
+    }
+  ]
+}

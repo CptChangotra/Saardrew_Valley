@@ -1,0 +1,27 @@
+{
+  "clouds": [
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "tick": 9,
+      "type": "BROKEN_MACHINE",
+      "duration": 5,
+      "machineId": 0
+    },
+    {
+      "id": 2,
+      "tick": 3,
+      "type": "BROKEN_MACHINE",
+      "duration": 1,
+      "machineId": 0
+    },
+    {
+      "id": 3,
+      "tick": 2,
+      "type": "BROKEN_MACHINE",
+      "duration": 1,
+      "machineId": 0
+    }
+  ]
+}
