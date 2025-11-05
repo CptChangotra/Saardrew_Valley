@@ -2,7 +2,7 @@
 
 An organic farming simulation project developed as part of the Software Engineering Lab at Saarland University. This educational project simulates realistic farming operations including crop cultivation, environmental influences, and farm management.
 
-## For the most detailed implementation plan of this project, do refer to group19-implementation/Implementation_Plan.md
+#### For the most detailed implementation plan of this project, do refer to group19-implementation/Implementation_Plan.md
 
 ## Description
 
