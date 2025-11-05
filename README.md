@@ -12,7 +12,18 @@ Saardrew Valley is a comprehensive organic farming simulator that models key asp
 - **Organic Farming Practices**: Crop rotation, natural pest control, and environmental sustainability
 - **Dynamic Events**: Random incidents like animal attacks, droughts, bee pollination events, and city expansion
 
-The project is implemented in Kotlin using Gradle as the build system, following software engineering best practices learned during the course.
+## Disclaimer
+
+This is an educational project developed for the Software Engineering Lab course at Saarland University. It is not intended for commercial use and serves as a learning exercise in:
+- Software design and architecture
+- Team collaboration and project management
+- Test-driven development
+- Code quality and maintainability
+- Version control and CI/CD practices
+
+**Course**: Software Engineering Lab  
+**Institution**: Saarland University, Chair of Software Engineering  
+**Academic Year**: 2024-2025
 
 ## Team
 
@@ -348,14 +359,6 @@ The implementation adheres to the detailed specification document provided by th
 - Logging format and levels
 - JSON configuration schemas
 
-## Disclaimer
-
-This is an educational project developed for the Software Engineering Lab course at Saarland University. It is not intended for commercial use and serves as a learning exercise in:
-- Software design and architecture
-- Team collaboration and project management
-- Test-driven development
-- Code quality and maintainability
-- Version control and CI/CD practices
 
 ## License
 
